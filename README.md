@@ -35,7 +35,7 @@ In our hex example, we can see a "?" used which means the character # would have
 E.G. “#?” indicates that a “#” symbol can be used zero or once 
 
 ### Grouping Constructs
-() - grouping constructors' group multiple characters within a section this group of data will be placed in an array and its values can be accessed using an index on the result of the match. In our example, we see the quantifiers 6 and 3 placed after the bracket expressions between the operators which indicates that the unit within the brackets would have to set the number of characters between 6 or 3 while meeting the conditions within the brackets. Our grouped expression is encased in a bracket expression with the "$" anchor that ends this. 
+() - grouping constructs break up sections of a string to determine if they meet the requirements set out within the regex checking multiple parts of a string to check they match and meet the requirments needed. In our example, we see the quantifiers 6 and 3 placed after the bracket expressions between the operators which indicates that the unit within the brackets would have to set the number of characters between 6 or 3 while meeting the conditions within the brackets. Our grouped expression is encased in a bracket expression with the "$" anchor that ends this and "#?" which starts it.
 
 E.G. “(Hello){3}” indicates that anything inside the bracket must be repeated three times as stated by the quantifier 
 
