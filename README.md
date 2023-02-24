@@ -37,7 +37,7 @@ E.G. “#?” indicates that a “#” symbol can be used zero or once
 ### Grouping Constructs
 () - grouping constructs break up sections of a string to determine if they meet the requirements set out within the regex checking multiple parts of a string to check they match and meet the requirments needed. In our example, we see the quantifiers 6 and 3 placed after the bracket expressions between the operators which indicates that the unit within the brackets would have to set the number of characters between 6 or 3 while meeting the conditions within the brackets. Our grouping constructor wraps the expression with the "$" anchor that ends it and "#?" which starts it.
 
-E.G. “(Hello){3}” indicates that anything inside the bracket must be repeated three times as stated by the quantifier 
+E.G. “(Hello){3}” indicates that anything inside the bracket must be repeated three times as stated by the quantifier.
 
 ### Bracket Expressions
 [] - Anything within a bracket expression must match a specific pattern of characters outlined within them. To outline a range a "–" is used for example any number between 0 to 9. In our example, the condition follows that there must be lower-case characters between a-f and/or a number between 0-9.  
