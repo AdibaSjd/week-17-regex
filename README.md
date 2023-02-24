@@ -1,9 +1,10 @@
 # week-17-regex
 
 A regular expression, also known as regex, is a sequence of characters that forms a search pattern used to match and manipulate text. It is a powerful tool used in computer science, programming, and text processing to find and extract information from text by defining a specific pattern or set of rules which intern allows to check if a string contains a certain character or phrase. 
-## Summary
-An example of this can be checked with a Hex Value which regular expressions can be matched to. Hex values contain numbers and letter, numbers ranging from 0-9, letter from A-F or a-f A representing 10 and ascending through to F which is 15. This uses Hexadecimal, the numbering system that’s base is 16. Hex systems can be seen throughout color coding where hexadecimals are used to represent color in RGB format (red, green and blue). An example of a hex color code is #2c333e which would have to meet the criteria from this regex expression /^#?([a-f0-9]{6}|[a-f0-9]{3})$/. 
 
+## Summary
+
+Hex values (Hexadecimals) are used throughout color coding where they are used to represent color in RGB format (red, green and blue). An example of this is a hexadecimal #2c333e which would have to match the criteria from this regex expression /^#?([a-f0-9]{6}|[a-f0-9]{3})$/. Hex values contain numbers and letters, numbers ranging from 0-9, letter from A-F or a-f A representing 10 and ascending through to F which is 15 with the numbering system that’s base is 16. This criterion must strictly meet the regular expression outlined each time to be a hexadecimal code. 
 
 ## Table of Contents
 
